@@ -1,13 +1,11 @@
 # Tools setup - CS323
 
 1. Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-2. Download the image [cs323-OS.ova.xz]().
-3. Extract the image using the following command:
-	`unxz cs323-OS.ova.xz`
-4. In VirtualBox do File→Import Appliance, select the image and finish it by iterating on next button.
-3. Start the machine called `cs323-OS`.
-4. There is an already created user `cs323` with password `cs323`.
-5. There is a predefined port forwarding from your host port 2222 to the VM port 22. Hence, you don't need to work in graphical mode and can SSH into the VM with `ssh -p 2222 cs323@localhost`.
+2. Download the image [cs323-OS.ova](https://epflch-my.sharepoint.com/:u:/g/personal/vishal_gupta_epfl_ch/Ee4Qp0sIDR1Gp2wCbTc4KXoBSVVUOug33jmx7LNvykCvOQ?e=NLyVah).
+3. In VirtualBox do File→Import Appliance, select the image and finish it by iterating on next button.
+4. Start the machine called `cs323-OS`.
+5. There is an already created user `cs323` with password `cs323`.
+6. There is a predefined port forwarding from your host port 2222 to the VM port 22. Hence, you don't need to work in graphical mode and can SSH into the VM with `ssh -p 2222 cs323@localhost`.
 
 7. Within the VM, open the terminal either via SSH or GUI.
 8. Follow steps to [Generate SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
