@@ -16,4 +16,17 @@
 If you are paranoid about using preinstalled system, you can install Ubuntu 22.04 (x86-4) on your own and check [post_install.sh](https://gitlab.epfl.ch/cs323/vm/-/blob/main/post_install.sh) to see what was done from our side.
 
 
+## Setup for Apple M1/M2
 
+1. Install [Multpass](https://multipass.run/install)
+2. Launch a new ubuntu image using the followning command: `multipass launch --name cs323`
+3. Access the machine using: `multipass exec cs323 -- bash`.
+4. Execute the `post_install.sh` script inside the VM.
+5. Follow steps 8-11 above.
+
+### To enable SSH access for the cs323 VM
+
+1. Follow the steps to [Change password for the user](https://www.cyberciti.biz/faq/linux-set-change-password-how-to/) `ubuntu`.
+2. Follow the steps to [Enable passowrd-based SSH authentication](https://docs.bitnami.com/virtual-machine/faq/get-started/enable-ssh-password/).
+3. Get the IP-address of the VM using: `multipass list`
+4. SSH into the VM using `ssh ubuntu@IP-ADDRESS`.
