@@ -85,7 +85,7 @@ You can also run ex01 tests in isolation using the grading.sh script in the
 repository, like so:
 
 ```bash
-$ grading.sh 1
+$ ./grading.sh 1
 ...
 ============================
 Note: Google Test filter = *
@@ -114,7 +114,7 @@ Expected equality of these values:
 Once we implement `ex01_strcmp`, our test case passes:
 
 ```bash
-$ grading.sh 1
+$ ./grading.sh 1
 ...
 ============================
 Note: Google Test filter = *
