@@ -12,4 +12,3 @@ wget -P ~ https://git.io/.gdbinit
 
 echo 'set auto-load safe-path /' >> ~/.gdbinit
 echo > ~/.bash_history
-rm ~/.ssh/known_hosts
