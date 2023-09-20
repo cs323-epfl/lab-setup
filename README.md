@@ -26,7 +26,7 @@ If you are paranoid about using preinstalled system, you can install Ubuntu 22.0
 
 ### To enable SSH access for the cs323 VM
 
-1. Follow the steps to [Change password for the user](https://www.cyberciti.biz/faq/linux-set-change-password-how-to/) `ubuntu`.
+1. Run the command `sudo passwd ubuntu` inside the VM and set the password to one of your choice.
 2. Follow the steps to [Enable passowrd-based SSH authentication](https://docs.bitnami.com/virtual-machine/faq/get-started/enable-ssh-password/).
 3. Get the IP-address of the VM using: `multipass list`
-4. SSH into the VM using `ssh ubuntu@IP-ADDRESS`.
+4. SSH into the VM using `ssh ubuntu@IP-ADDRESS` using the password you previously chose when prompted.
