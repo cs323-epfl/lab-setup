@@ -21,7 +21,7 @@ If you are paranoid about using preinstalled system, you can install Ubuntu 22.0
 1. Install [Multpass](https://multipass.run/install)
 2. Launch a new ubuntu image using the followning command: `multipass launch --name cs323`
 3. Access the machine using: `multipass exec cs323 -- bash`.
-4. Execute the `post_install.sh` script inside the VM.
+4. Execute the commands in the [post_install.sh](https://github.com/cs323-epfl/lab-setup/blob/main/post_install.sh) script inside the VM.
 5. Follow steps 8-11 above.
 
 ### To enable SSH access for the cs323 VM
