@@ -9,8 +9,7 @@ score your lab assignment.
 ## Defining a test
 
 In the lab assignment directory, we begin by creating a new file under one of
-the test directories `tests/tests-ex01`
-`tests`, called `tests/tests-custom`.
+the test directories `tests/tests-ex01`.
 
 ```bash
 $ touch tests/tests-ex01/test-ex01-custom.cpp
